@@ -20054,9 +20054,9 @@ NS Package M08A</description>
 <attribute name="NAME" x="22.86" y="-76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="22.86" y="-78.74" size="1.778" layer="96"/>
 </instance>
-<instance part="T5" gate="G$1" x="-10.16" y="30.48" smashed="yes">
-<attribute name="NAME" x="-6.604" y="31.75" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-6.604" y="28.956" size="1.778" layer="96"/>
+<instance part="T5" gate="G$1" x="-5.08" y="30.48" smashed="yes">
+<attribute name="NAME" x="-1.524" y="31.75" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-1.524" y="28.956" size="1.778" layer="96"/>
 </instance>
 <instance part="IC1" gate="G$1" x="68.58" y="-35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.33" y="-27.94" size="1.778" layer="95" rot="R270"/>
@@ -20112,9 +20112,9 @@ NS Package M08A</description>
 <attribute name="NAME" x="-17.526" y="68.707" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-17.526" y="66.167" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="-7.62" y="73.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="-9.398" y="77.6986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-9.652" y="75.438" size="1.778" layer="96"/>
+<instance part="R2" gate="G$1" x="-10.16" y="73.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="-11.938" y="77.6986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-12.192" y="75.438" size="1.778" layer="96"/>
 </instance>
 <instance part="IC3" gate="P" x="160.02" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="158.242" y="49.403" size="1.778" layer="95"/>
@@ -20147,9 +20147,9 @@ NS Package M08A</description>
 <instance part="GND6" gate="1" x="71.12" y="12.7" smashed="yes">
 <attribute name="VALUE" x="67.564" y="10.414" size="1.778" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="-7.62" y="45.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="-5.842" y="47.2186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-5.842" y="44.704" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="-2.54" y="45.72" smashed="yes" rot="R90">
+<attribute name="NAME" x="-0.762" y="47.2186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-0.762" y="44.704" size="1.778" layer="96"/>
 </instance>
 <instance part="R4" gate="G$1" x="-20.32" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-18.542" y="44.6786" size="1.778" layer="95"/>
@@ -20162,8 +20162,8 @@ NS Package M08A</description>
 <attribute name="NAME" x="-18.796" y="25.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-18.796" y="23.241" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-7.62" y="20.32" smashed="yes">
-<attribute name="VALUE" x="-10.414" y="18.034" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="-2.54" y="20.32" smashed="yes">
+<attribute name="VALUE" x="-5.334" y="18.034" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="VCC" x="-7.62" y="5.08" smashed="yes">
 <attribute name="VALUE" x="-10.16" y="2.54" size="1.778" layer="96" rot="R90"/>
@@ -20318,14 +20318,14 @@ NS Package M08A</description>
 </bus>
 <bus name="A,B,C,D,E,F,G">
 <segment>
-<wire x1="121.92" y1="-15.24" x2="137.16" y2="-15.24" width="0.762" layer="92"/>
-<wire x1="137.16" y1="-15.24" x2="139.7" y2="-20.32" width="0.762" layer="92"/>
-<wire x1="139.7" y1="-20.32" x2="139.7" y2="-25.4" width="0.762" layer="92"/>
-<wire x1="139.7" y1="-25.4" x2="142.24" y2="-27.94" width="0.762" layer="92"/>
 <wire x1="142.24" y1="-27.94" x2="152.4" y2="-27.94" width="0.762" layer="92"/>
 <wire x1="154.94" y1="-25.4" x2="154.94" y2="-10.16" width="0.762" layer="92"/>
 <wire x1="152.4" y1="-27.94" x2="154.94" y2="-25.4" width="0.762" layer="92"/>
+<wire x1="142.24" y1="-27.94" x2="139.7" y2="-25.4" width="0.762" layer="92"/>
+<wire x1="137.16" y1="-15.24" x2="139.7" y2="-17.78" width="0.762" layer="92"/>
+<wire x1="121.92" y1="-15.24" x2="137.16" y2="-15.24" width="0.762" layer="92"/>
 <label x="122.682" y="-14.224" size="1.778" layer="95"/>
+<wire x1="139.7" y1="-25.4" x2="139.7" y2="-17.78" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -20379,7 +20379,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="T5" gate="G$1" pin="E"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="-7.62" y1="25.4" x2="-7.62" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="25.4" x2="-2.54" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -20497,7 +20497,7 @@ NS Package M08A</description>
 <wire x1="-20.32" y1="76.2" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-20.32" y1="73.66" x2="-20.32" y2="71.374" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="73.66" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="73.66" x2="-20.32" y2="73.66" width="0.1524" layer="91"/>
 <junction x="-20.32" y="73.66"/>
 </segment>
 </net>
@@ -20505,7 +20505,7 @@ NS Package M08A</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="73.66" x2="-2.54" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="73.66" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="73.66" x2="5.08" y2="45.72" width="0.1524" layer="91"/>
 <junction x="2.54" y="73.66"/>
@@ -20658,17 +20658,16 @@ NS Package M08A</description>
 <pinref part="IC4" gate="A" pin="X0"/>
 <wire x1="71.12" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="91.44" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="91.44" x2="0" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="0" y1="91.44" x2="0" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="91.44" x2="-2.54" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="91.44" x2="-2.54" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-7.62" y1="53.34" x2="-7.62" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="0" y1="53.34" x2="-7.62" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="53.34" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="T5" gate="G$1" pin="B"/>
-<wire x1="-12.7" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="30.48" x2="-20.32" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="30.48" x2="-20.32" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="-20.32" y1="30.48" x2="-20.32" y2="25.4" width="0.1524" layer="91"/>
@@ -20696,11 +20695,11 @@ NS Package M08A</description>
 <pinref part="IC5" gate="A" pin="P1"/>
 <wire x1="116.84" y1="33.02" x2="116.84" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="40.64" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="40.64" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="T5" gate="G$1" pin="C"/>
-<wire x1="-7.62" y1="38.1" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-7.62" y="38.1"/>
+<wire x1="-2.54" y1="38.1" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-2.54" y="38.1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -21175,7 +21174,7 @@ NS Package M08A</description>
 <approved hash="104,1,152.4,63.5,IC5P,VSS,GND,,,"/>
 <approved hash="104,1,167.64,63.5,IC5P,VDD,VCC,,,"/>
 <approved hash="104,1,2.54,-2.54,IC6,VPP,VCC,,,"/>
-<approved hash="113,1,-18.5183,78.74,Q1,,,,,"/>
+<approved hash="113,1,-18.5138,78.74,Q1,,,,,"/>
 <approved hash="113,1,78.4606,-75.4803,J1,,,,,"/>
 <approved hash="113,1,-7.3406,-24.6803,J2,,,,,"/>
 <approved hash="113,1,172.999,23.5797,J3,,,,,"/>
